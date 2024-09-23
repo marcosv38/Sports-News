@@ -1,0 +1,83 @@
+
+/*==================== Cabeçalho container ====================*/
+
+.cabecalho{
+    background-color: #FFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 92px;
+    width: 80%;
+    padding: 0px 10%;
+}
+
+/*==================== Cabeçalho Logo ====================*/
+
+.cabecalho__Logo{
+    max-width: 154px;
+    max-height: 42px;
+    width: 100%;
+    height: auto;
+}
+
+/*==================== Links ====================*/
+
+.cabecalho__navigation__links{
+    display: flex;
+    gap: 19px;
+}
+
+.cabecalho__navigation__links-link{
+    text-decoration: none;
+    color: var(--cinza-E1);
+    size: 2.625rem;
+    &:hover{
+        color: var(--preto-basico);
+        font-weight: bold;
+        size: 4.5rem;
+        transition: 0.5s;
+    }
+}
+
+.link-ativo{
+    color: var(--preto-basico);
+    font-weight: bold;
+    &:hover{
+        color: var(--preto-basico);
+        font-weight: bold;
+        size: 4.5rem;
+        transition: 0.5s;
+    }
+}
+/*==================== Input Search ====================*/
+
+.cabecalho__search-container{
+    position: relative;
+}
+
+
+.cabecalho__search{
+    width: 100px;
+    height: 35px;
+    border-radius: 6px;
+    background-color: var(--cinza-E1);
+    border: none;
+    text-align: center;
+    color: #FFF;
+    font-size: 0.875rem;
+    &::placeholder{
+        color: #FFF;
+        font-weight: bold;
+        text-align: right;
+    }
+}
+
+.cabecalho__search-Icon{
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    top:9px;
+    left: 10px;
+}
+
+

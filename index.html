@@ -3,11 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Sport News</title>
     <link href="
 https://cdn.jsdelivr.net/npm/reset-css@5.0.2/reset.min.css
 " rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header class="cabecalho">
@@ -16,17 +20,51 @@ https://cdn.jsdelivr.net/npm/reset-css@5.0.2/reset.min.css
 
         <nav class="cabecalho__navigation">
             <ul class="cabecalho__navigation__links">
-                <li class="cabecalho__navigation__links-item">Home</li>
-                <li class="cabecalho__navigation__links-item">Category</li>
-                <li class="cabecalho__navigation__links-item">Trending News</li>
-                <li class="cabecalho__navigation__links-item">Recent News</li>
-                <li class="cabecalho__navigation__links-item">Clubs Ranking</li>
-                <li class="cabecalho__navigation__links-item">Sports Article</li>
+                <li class="cabecalho__navigation__links-item"><a href="#" class="cabecalho__navigation__links-link link-ativo">Home</a></li>
+                <li class="cabecalho__navigation__links-item"><a href="#" class="cabecalho__navigation__links-link">Category</a></li>
+                <li class="cabecalho__navigation__links-item"><a href="#" class="cabecalho__navigation__links-link">Trending News</a></li>
+                <li class="cabecalho__navigation__links-item"><a href="#" class="cabecalho__navigation__links-link">Recent News</a></li>
+                <li class="cabecalho__navigation__links-item"><a href="#" class="cabecalho__navigation__links-link">Clubs Ranking</a></li>
+                <li class="cabecalho__navigation__links-item"><a href="#" class="cabecalho__navigation__links-link">Sports Article</a></li>
             </ul>
         </nav>
 
-        <input type="search" class="cabecalho__search" placeholder="Search"/>
+        <div class="cabecalho__search-container">
+            <input type="search" class="cabecalho__search" placeholder="Search"/>
+            <img src="/imagens/SearchIcon.png" class="cabecalho__search-Icon">
+        </div>
         
     </header>
+
+    <main class="container-principal">
+
+        <section class="banner">
+            <div class="banner__principal">
+                <div class="banner__principal__container-texto">
+                    <p class="banner__principal__texto">The EuroLeague Finals Top Scorer is the individual award for the player that gained the highest points in the EuroLeague Finals</p>
+                    <a href="#" class="banner__principal__texto">continue reading</a>
+                </div>
+            </div>
+            <div class="banner__today">
+                <span class="banner__today__titulo">Today</span>
+                <div class="banner__today__card">
+                    <img src="/imagens/card1.png" class="banner__today__card-img"/>
+                    <div class="banner__today__card-texto">
+                        <p class="banner__today__card-data">Race98 - 03 June 2023</p>
+                        <p class="banner__today__card-titulo">Ethiopian runners took the top four spots.</p>
+                    </div>
+                </div>
+                <div class="banner__today__card">
+                    <img src="/imagens/card2.png" class="banner__today__card-img"/>
+                    <div class="banner__today__card-texto">
+                        <p class="banner__today__card-data">INDYCAR - 03 June 2023</p>
+                        <p class="banner__today__card-titulo">IndyCar Detroit: Dixon quickest in second practice</p>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+
+    </main>
 </body>
 </html>

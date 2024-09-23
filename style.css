@@ -1,0 +1,16 @@
+@import url('/styles/header.css');
+@import url('/styles/banner.css');
+:root{
+ --cinza-E1: #B8C2CE;
+ --cinza-E2: #E1E8F0;
+ --cinza-E3: #EBEEF3;
+ --branco-basico: #F9FAFC;
+ --preto-basico: #262626;
+ }
+
+body{
+    background-color: var(--branco-basico);
+    font-family: "DM Sans", sans-serif;
+    width: 100vw;
+    
+}
