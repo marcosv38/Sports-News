@@ -1,5 +1,7 @@
 @import url('/styles/header.css');
 @import url('/styles/banner.css');
+@import url('/styles/categorias.css');
+
 :root{
  --cinza-E1: #B8C2CE;
  --cinza-E2: #E1E8F0;
