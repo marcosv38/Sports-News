@@ -1,0 +1,94 @@
+.banner{
+    display: flex;   
+    width: 100%; 
+    height: 555px;
+   
+}
+.banner__principal{
+    width: auto;
+    height: 100%;
+    background-image: url("/imagens/bg1.png");
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: end;
+    flex-grow: 1;
+    justify-items: center;
+}
+
+.banner__principal__container-texto{
+    width: 365px;
+    margin-left: 60%;
+}
+
+.banner__principal__texto{
+    margin-bottom: 32px;
+}
+
+.banner__principal__texto-link{
+    text-decoration: none;
+    color: var(--cinza-E2);
+    background-color: var(--preto-basico);
+    padding: 1rem;
+    border-radius: 6px;
+    text-transform: uppercase
+    
+}
+
+/*==================== Today Section ====================*/
+.banner__today{
+    width: 270px;
+    margin-right: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    padding-top: 10px;
+}
+
+.banner__today__titulo{
+    width: 60px;
+    background-color: var(--cinza-E2);
+    color: var(--cinza-E1);
+    padding: 0.5rem 1rem;
+    border-radius: 3px;
+    font-size: 1.25rem;
+}
+
+
+.banner__today__card1{
+    background-image: url("/imagens/card1.png");
+    background-repeat: no-repeat;
+    height: 233px;
+    display: flex;
+    align-items: end;
+    border-radius: 6px;
+}
+
+.banner__today__card2{
+    background-image: url("/imagens/card2.png");
+    background-repeat: no-repeat;
+    height: 233px;
+    display: flex;
+    align-items: end;
+    border-radius: 6px;
+}
+
+
+.banner__today__card-texto{
+    background: linear-gradient(rgba(184,194,206,0.1) 0%, rgba(184,194,206,1) 80%);
+    height: 50%;
+    border-radius: 6px;
+    padding: 10px;
+    
+}
+
+.banner__today__card-data{
+    color: var(--preto-basico);
+    font-size: 0.625rem;
+    margin-top: 60px;
+    margin-bottom: 5px;
+}
+
+.banner__today__card-titulo{
+    color: var(--preto-basico);
+    font-size: 1rem;
+}
