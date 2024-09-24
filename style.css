@@ -2,6 +2,7 @@
 @import url('/styles/banner.css');
 @import url('/styles/categorias.css');
 @import url('/styles/trendingNews.css');
+@import url('/styles/bannerNumerado.css');
 
 :root{
  --cinza-E1: #B8C2CE;

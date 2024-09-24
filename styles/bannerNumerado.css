@@ -1,0 +1,82 @@
+.bannerNumerado{
+    display: flex;
+    flex-direction: column;
+    width: 76%;
+    margin-left: 170px;
+    background-color: var(--cinza-E3);
+    border-radius: 6px;
+}
+
+.bannerNumerado__banner{
+    background-image: url("/imagens/bgNumerado.png");
+    width: 100%;
+    height: 518px;
+    background-repeat: no-repeat;
+    margin: auto;
+    padding: 20px 50px;
+    position: relative;
+}
+
+.bannerNumerado__banner-tag{
+    color: var(--cinza-E3);
+    border: 1px solid var(--cinza-E3);
+    padding: 10px;
+    font-size: 1.25rem;
+    width: 107px;
+    text-align: center;
+    border-radius: 3px;
+}
+
+.bannerNumerado__banner__footer{
+    position: absolute;
+    bottom: 60px;
+    width: 760px;
+}
+
+.bannerNumerado__banner-data{
+    font-size: 1.125rem;
+    color: var(--cinza-E3);
+    margin-bottom: 14px;
+}
+
+.bannerNumerado__banner-titulo{
+    width: 100%;
+    text-wrap: wrap;
+    font-size: 2.5rem;
+    color: var(--cinza-E3);
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.bannerNumerado__banner-texto{
+    font-size: 1.25rem;
+    color: var(--cinza-E3);
+    margin-bottom: 14px;
+}
+
+/*==================== nav footer ====================*/
+
+.bannerNumerado__footer{
+    text-align: right;
+}
+
+.bannerNumerado__footer-nav{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: end;
+    padding: 0px 20px 20px 0px;
+}
+
+.bannerNumerado__footer-nav-item{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: var(--font-data);
+}
+
+.nav-item__ativo{
+    color: var(--branco-basico);
+    background-color: var(--preto-basico);
+    border-radius: 50%;
+    padding: 12px 20px;
+}
