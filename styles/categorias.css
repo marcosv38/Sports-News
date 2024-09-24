@@ -4,7 +4,8 @@
     color: var(--preto-basico);
     margin-top: 80px;
     margin-bottom: 30px;
-    margin-left: 170px;
+    margin-left: 200px;
+    margin-right: 200px;
 }
 
 .categorias__container{
@@ -37,14 +38,14 @@
 .categorias__container__item-titulo-cima{
     width: 210px;
     height: 78px;
-    background-color: var(--cinza-E1);
+    background-color: var(--cinza-E3);
     padding: 30px;
     text-align: center;
     border-radius: 6px;
 }
 
 .categorias__container__item-titulo-baixo{
-    background-color: var(--cinza-E1);
+    background-color: var(--cinza-E3);
     padding: 30px;
     text-align: center;
     border-radius: 6px;

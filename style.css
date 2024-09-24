@@ -1,6 +1,7 @@
 @import url('/styles/header.css');
 @import url('/styles/banner.css');
 @import url('/styles/categorias.css');
+@import url('/styles/trendingNews.css');
 
 :root{
  --cinza-E1: #B8C2CE;
@@ -8,11 +9,11 @@
  --cinza-E3: #EBEEF3;
  --branco-basico: #F9FAFC;
  --preto-basico: #262626;
+ --font-data: #757678;
  }
 
 body{
     background-color: var(--branco-basico);
     font-family: "DM Sans", sans-serif;
     width: 100vw;
-    
 }
