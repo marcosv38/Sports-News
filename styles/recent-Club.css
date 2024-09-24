@@ -1,0 +1,27 @@
+.recent-Club{
+    display: flex;
+    justify-content: space-between;
+    margin: 80px 170px;
+}
+
+.recentNews__titulo{
+    font-size: 1.75rem;
+    color: var(--preto-basico);
+    margin-bottom: 16px;
+}
+
+.recentNews__img{
+    width: 270px;
+    height: 354px;
+    position: relative;
+}
+
+.recentNews__img-rodape{
+    position: absolute;
+    bottom: 54px;
+    width: 100%;
+    height: 82px;
+    background-size: cover;
+    background-image: url("/imagens/Cardbg.png");
+    border-radius: 0px 0px 6px 6px;
+}

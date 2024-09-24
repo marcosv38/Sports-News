@@ -3,6 +3,7 @@
 @import url('/styles/categorias.css');
 @import url('/styles/trendingNews.css');
 @import url('/styles/bannerNumerado.css');
+@import url('/styles/recent-Club.css');
 
 :root{
  --cinza-E1: #B8C2CE;
