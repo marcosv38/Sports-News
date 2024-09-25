@@ -5,6 +5,7 @@
 @import url('/styles/bannerNumerado.css');
 @import url('/styles/recent-Club.css');
 @import url('/styles/sports-article.css');
+@import url('/styles/footer.css');
 :root{
  --cinza-E1: #B8C2CE;
  --cinza-E2: #E1E8F0;
